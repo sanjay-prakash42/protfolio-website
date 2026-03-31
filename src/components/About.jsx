@@ -25,10 +25,8 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="relative rounded-2xl overflow-hidden glass p-2 max-w-md mx-auto"
             >
-              <div className="aspect-square rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center relative overflow-hidden">
-                 {/* Replace this div with an actual image, e.g., <img src="/profile.jpg" alt="Profile" className="object-cover w-full h-full" /> */}
-                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1544256718-3bcf237f3974?auto=format&fit=crop&q=80')] bg-cover bg-center mix-blend-overlay opacity-50 grayscale hover:grayscale-0 transition-all duration-500"></div>
-                 <span className="text-4xl font-bold text-foreground/20 absolute">JSP</span>
+              <div className="aspect-[3/4] rounded-xl flex items-center justify-center relative overflow-hidden bg-white/5">
+                 <img src="/profile.png" alt="J. Sanjay Prakash" className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" />
               </div>
             </motion.div>
 
